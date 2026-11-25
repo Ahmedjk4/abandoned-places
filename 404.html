@@ -1,0 +1,103 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="theme-color" content="#171a16">
+	<title>Lost somewhere — Abandoned Places</title>
+	<style>
+		:root {
+			color-scheme: dark;
+			--ink: #e9e5d8;
+			--muted: #a7aa98;
+			--moss: #a6b27b;
+			--night: #171a16;
+		}
+
+		* { box-sizing: border-box; }
+
+		body {
+			min-height: 100vh;
+			margin: 0;
+			display: grid;
+			place-items: center;
+			padding: 2rem;
+			color: var(--ink);
+			background:
+				radial-gradient(ellipse at 75% 25%, #343a2a 0, transparent 38%),
+				linear-gradient(145deg, #20251e, var(--night) 65%);
+			font-family: Georgia, "Times New Roman", serif;
+		}
+
+		main {
+			width: min(100%, 760px);
+			padding: clamp(2rem, 8vw, 5.5rem);
+			border: 1px solid #747b5b66;
+			background: #171a16bf;
+			box-shadow: 0 24px 80px #0005;
+		}
+
+		.eyebrow {
+			margin: 0 0 2.5rem;
+			color: var(--moss);
+			font: 700 .75rem/1.4 Arial, sans-serif;
+			letter-spacing: .2em;
+			text-transform: uppercase;
+		}
+
+		.number {
+			margin: 0;
+			color: var(--moss);
+			font: 400 clamp(5rem, 18vw, 10rem)/.8 Georgia, serif;
+			letter-spacing: -.08em;
+		}
+
+		h1 {
+			max-width: 12ch;
+			margin: 2rem 0 1rem;
+			font-size: clamp(2rem, 6vw, 3.5rem);
+			font-weight: 400;
+			line-height: 1.05;
+		}
+
+		.message {
+			max-width: 38rem;
+			margin: 0;
+			color: var(--muted);
+			font: 1rem/1.75 Arial, sans-serif;
+		}
+
+		a {
+			display: inline-block;
+			margin-top: 2rem;
+			padding-bottom: .35rem;
+			color: var(--ink);
+			border-bottom: 1px solid var(--moss);
+			font: 700 .8rem/1.5 Arial, sans-serif;
+			letter-spacing: .08em;
+			text-decoration: none;
+			text-transform: uppercase;
+		}
+
+		a:hover, a:focus-visible { color: var(--moss); }
+		a:focus-visible { outline: 2px solid var(--moss); outline-offset: 5px; }
+
+		@media (prefers-reduced-motion: no-preference) {
+			main { animation: arrive .7s ease-out both; }
+			@keyframes arrive {
+				from { opacity: 0; transform: translateY(12px); }
+				to { opacity: 1; transform: translateY(0); }
+			}
+		}
+	</style>
+</head>
+<body>
+	<main>
+		<p class="eyebrow">Abandoned Places · Field note 404</p>
+		<p class="number" aria-hidden="true">404</p>
+		<h1>This place is off the map.</h1>
+		<p class="message">The page you’re looking for may have moved on, or it may never have been here. Either way, there’s nothing to see down this trail.</p>
+		<a href="/">Find your way back</a>
+	</main>
+</body>
+</html>

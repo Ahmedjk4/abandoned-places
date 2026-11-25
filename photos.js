@@ -826,5 +826,51 @@ const PHOTOS = {
       "caption": "An exposed street in the former resort",
       "displayDate": "2025-10-29"
     }
+  ],
+  "shali-old-town": [
+    {
+      "src": "assets/shali-1.jpg",
+      "page": "https://commons.wikimedia.org/wiki/File:Shali_Siwa.jpg",
+      "artist": "Youseftarekyahia",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "date": "2023-11-03",
+      "caption": "A view of the Shali Old Town ruins",
+      "displayDate": "2023-11-03",
+      "title": "Shali Siwa.jpg"
+    },
+    {
+      "src": "assets/shali-2.jpg",
+      "page": "https://commons.wikimedia.org/wiki/File:Shali_%28Historic_Center_of_Siwa%29_02.JPG",
+      "artist": "Michael Hermann",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "date": "2016-03-10",
+      "caption": "A view of the Shali Old Town ruins from a different angle",
+      "displayDate": "2016-03-10",
+      "title": "Shali Siwa 2.jpg"
+    },
+    {
+      "src": "assets/shali-3.jpg",
+      "page": "https://commons.wikimedia.org/wiki/File:The_old_market_town_of_Shali_in_Siwa.jpg",
+      "artist": "Ahmedherz",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "date": "2015-07-09",
+      "caption": "A view of the Shali Old Town ruins from a different angle",
+      "displayDate": "2015-07-09",
+      "title": "Shali Siwa 3.jpg"
+    },
+    {
+      "src": "assets/shali-4.jpg",
+      "page": "https://commons.wikimedia.org/wiki/File:Shali_fortress_in_different_angle.jpg",
+      "artist": "Menna Hassan Helmy",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "date": "2026",
+      "caption": "A view of the Shali Old Town ruins from a different angle",
+      "displayDate": "2026",
+      "title": "Shali Siwa 4.jpg"
+    }
   ]
 };

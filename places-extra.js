@@ -186,5 +186,22 @@ const ADDITIONAL_PLACES = [
     "history": "Villa Epecuén developed as a resort beside a salt lake in Argentina’s Buenos Aires Province. Flooding overwhelmed the village in November 1985 and forced its abandonment. As the water later receded, salt-covered streets, trees and building remains reappeared.",
     "observation": "The surviving fragments stand against an unusually open horizon. Where a street or wall can still be followed, the outline of the settlement becomes briefly legible. The photographs record the marks left by submersion and exposure, as well as the traces of a former holiday town.",
     "note": "The archive concerns the flooded former resort, not nearby inhabited Carhué. Photographs record the water level and condition at the time they were made."
+  },
+  {
+    "id": "shali-old-town",
+    "number": "19",
+    "name": "Shali Old Town",
+    "category": "villages",
+    "location": "Siwa Oasis, Matrouh Governorate, Egypt",
+    "country": "Egypt",
+    "period": "Medieval fortified settlement. Heavily damaged in 1926.",
+    "photoAlt": "Shali Fortress in Siwa Oasis, Egypt",
+    "sourceLabel": "Egyptian Ministry of Tourism and Antiquities — Shali Village",
+    "source": "https://egymonuments.gov.eg/en/news/inaugurates-shali-fortress-and-the-aghurmi-mosque-in-the-siwa-oasis/",
+    "title": "A mudbrick fortress in the desert.",
+    "summary": "The remains of a fortified settlement in Egypt’s Siwa Oasis, built from mudbrick and stone.",
+    "history": "Shali Old Town was established in the 13th century as a fortified settlement in the Siwa Oasis. It was constructed using local materials, primarily mudbrick and stone. The town suffered significant damage during a heavy rainstorm in 1926, leading to its partial abandonment.",
+    "observation": "The ruins of Shali Old Town reveal the architectural techniques used in desert environments. The remaining structures, including walls and towers, provide insight into the defensive strategies and community organization of the time.",
+    "note": "The site is a protected heritage location. Visitors should respect the preservation efforts and follow any guidelines provided by local authorities.",
   }
 ];
